@@ -1,0 +1,4 @@
+POST http://127.0.0.1:8000/users/Register/
+Content-Type: application/json
+
+{"name":" mohamed", "email": "sarahmahmoudi1106@gmail.com","password":"SarahSArah", "role": "operator"}

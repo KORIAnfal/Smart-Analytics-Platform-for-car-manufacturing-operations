@@ -1,0 +1,3 @@
+jwt 
+rest_framework
+httpagentparser

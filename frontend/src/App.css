@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.App-header {
+  margin-bottom: 30px;
+}
+
+.tabs {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background-color: #333;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.tabs button.active {
+  background-color: #007bff;
+}
+
+.graphs-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.graph-card {
+  background-color: #282828;
+  padding: 10px;
+  border-radius: 10px;
+}
